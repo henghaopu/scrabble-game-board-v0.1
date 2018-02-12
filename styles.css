@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+table, td {
+    border: 1px solid black;
+    margin: 1em;
+}
+
+td {
+    width: 2em;
+    height: 1.8em;
+    text-align: center;
+}
+
+
+img {
+    width: 2em;
+    height: 1.76em;
+}
