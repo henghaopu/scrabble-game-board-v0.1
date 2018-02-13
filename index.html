@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,7 +16,7 @@
         <table>
             
             <tr>
-                <td id="td00" ondrop="drop(event)" ondragover="allowDrop(event)">TW</td>
+                <td id="td00" ondrop="drop(event)" ondragover="allowDrop(event)" ontouchend="drop(event)">TW</td>
                 <td id="td01" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
                 <td id="td01" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
                 <td id="td01" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
@@ -62,8 +62,8 @@
         <table>
             
             <tr>
-                <td id="slot0" ondrop="drop(event)" ondragover="allowDrop(event)">
-                    <img id="tile0" src="SVG/tile.svg" draggable="true" ondragstart="drag(event)">
+                <td id="slot0" ondrop="drop(event)" ondragover="allowDrop(event)" ontouchend="drop(event)">
+                    <img id="tile0" src="SVG/tile.svg" draggable="true" ondragstart="drag(event)" ontouchstart="drag(event)">
                 </td>
                 <td id="slot1" ondrop="drop(event)" ondragover="allowDrop(event)">
                     <img id="tile1" src="SVG/tile.svg" draggable="true" ondragstart="drag(event)">
